@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Our Zoo</title>
+    <link rel="stylesheet" href="styles-contact.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Zoo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="animals.html">Animals</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-us">
+            <h2>Contact Us</h2>
+            <p>We would love to hear from you! Please reach out to us using the information below or by filling out the contact form.</p>
+
+            <h3>Contact Information</h3>
+            <ul>
+                <li>Email: <a href="mailto:info@ourzoo.com">info@ourzoo.com</a></li>
+                <li>Phone: <a href="tel:+1234567890">+233 24 451 4784</a></li>
+                <li>Address: Nsawam Rd, Accra</li>
+            </ul>
+
+            <h3>Contact Form</h3>
+            <form action="submit-form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <h3>Visit Us</h3>
+            <p>Come and experience the wonders of the animal kingdom. We are open daily from 9:00 AM to 5:00 PM.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 ZooTopia. All rights reserved.</p>
+    </footer>
+</body>
+</html>
