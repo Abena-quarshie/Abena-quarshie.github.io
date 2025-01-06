@@ -25,7 +25,7 @@
 }
 
 .logo{ 
-    color: darkgoldenrod;
+    color: rgb(255, 183, 1);
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px; 
@@ -77,7 +77,7 @@ ul li a:hover{
     width: 200px;
     height: 40px;
     background: transparent;
-    border: 1px solid darkgoldenrod;
+    border: 1px solid rgb(255, 183, 1);
     margin-top: 13px;
     color: #fff;
     border-right: none;
@@ -92,8 +92,8 @@ ul li a:hover{
 .btn{
     width: 100px;
     height: 40px;
-    background: darkgoldenrod;
-    border: 2px solid darkgoldenrod;
+    background: rgb(255, 183, 1);
+    border: 2px solid rgb(255, 183, 1);
     margin-top: 13px;
     color: #fff;
     font-size: 15px;
